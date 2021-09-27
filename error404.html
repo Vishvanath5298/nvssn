@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Prasad Constructions-Home page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slide.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome.min.css">
+
+</head>
+
+<body>
+    <div class="bg-image"></div>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images\gpc images\gpc1.png" alt="Ganesh prasad constructions davanagere"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </section>
+    <h1>Error 404 page not found</h1>
+  <!------------footer------->
+  <section class="footer">
+    <div class="row">
+        <div class="contact-col"> <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               </p></div>
+                <div class="contact-col">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="projects.html">PROJECTS</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+   <div class="contact-col"> <div class="icons">
+            <i class="fas fa-facebook"></i>
+            <i class="fas fa-twitter"></i>
+            <i class="fas fa-instagram"></i>
+            <i class="fas fa-linkedin"></i>
+        </div>
+    </div>
+   </div>
+    <p>Made with<i class="fas fa-heart-0"></i>by vifla technologies </p>
+</section>
+
+
+
+
+
+
+
+    <!-----  javascript toggle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
